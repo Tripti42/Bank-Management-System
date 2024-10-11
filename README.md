@@ -1,4 +1,4 @@
-**Bank Management System**
+## **Bank Management System**
 
 This project is a simple Bank Management System built using Python, MySQL, and a basic Tkinter graphical user interface (GUI). The system allows you to create accounts, deposit or withdraw money, track transactions, and more.
 
@@ -9,7 +9,7 @@ This project is a simple Bank Management System built using Python, MySQL, and a
 
 
 
-**Features**
+## **Features**
 
 Create Account: Open a new account with a secure password.
 
@@ -30,7 +30,7 @@ GUI: Use a simple Tkinter window for creating accounts and other operations.
 
 
 
-**Technologies Used**
+## **Technologies Used**
 
 Python: The main programming language.
 
@@ -41,7 +41,7 @@ Tkinter: To create a simple window for user interaction.
 
 
 
-**Prerequisites**
+## **Prerequisites**
 
 Python 3.x must be installed on your computer.
 
@@ -53,7 +53,7 @@ pip install mysql-connector-python bcrypt tkinter
 
 
 
-**Database Setup**
+## **Database Setup**
 
 Open MySQL and create the database:
 
@@ -64,7 +64,7 @@ USE bank_management;
 Create the tables:
 
 
-**Creating the Tables**
+## **Creating the Tables**
 
 
 CREATE TABLE Customers (
@@ -95,7 +95,7 @@ CREATE TABLE Transactions (
 
 **python code **
 
-**Connecting the Database **
+## **Connecting the Database **
 
 def connect_to_db():
 
@@ -111,7 +111,7 @@ def connect_to_db():
 
 
 
-**How the System Works**
+## **How the System Works**
 
 
 Create Account: Enter customer details to create a new account.
