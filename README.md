@@ -5,32 +5,45 @@ This project is a simple Bank Management System built using Python, MySQL, and a
 **Features**
 
 Create Account: Open a new account with a secure password.
+
 Password Security: Passwords are stored securely using hashing.
+
 Deposit/Withdraw Money: Easily add or take out money from accounts.
+
+
 Transaction History: Track all deposits and withdrawals.
+
 Interest Calculation: Apply interest to savings accounts.
+
 Delete Account: Remove accounts and their transaction history.
+
 Reporting: Get reports on the total number of accounts, deposits, and balance.
+
 GUI: Use a simple Tkinter window for creating accounts and other operations.
 
 
 **Technologies Used**
 
 Python: The main programming language.
+
 MySQL: The database to store account and transaction data.
+
 Tkinter: To create a simple window for user interaction.
+
 
 **Setup Instructions**
 **Prerequisites**
 
 Python 3.x must be installed on your computer.
+
 MySQL must be installed and running.
+
 Install the necessary Python libraries by running:
 
 
 pip install mysql-connector-python bcrypt tkinter
 
-Database Setup
+**Database Setup**
 
 Open MySQL and create the database:
 
@@ -47,6 +60,7 @@ Create the tables:
 
 
 CREATE TABLE Customers (
+
     customer_id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255),
     address VARCHAR(255),
