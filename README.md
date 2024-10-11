@@ -4,6 +4,11 @@ This project is a simple Bank Management System built using Python, MySQL, and a
 
 
 
+![image](https://github.com/user-attachments/assets/e3a5d539-9c0c-4121-97fc-c5bf793a8577)
+
+
+
+
 **Features**
 
 Create Account: Open a new account with a secure password.
