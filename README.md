@@ -31,7 +31,6 @@ MySQL: The database to store account and transaction data.
 Tkinter: To create a simple window for user interaction.
 
 
-**Setup Instructions**
 **Prerequisites**
 
 Python 3.x must be installed on your computer.
