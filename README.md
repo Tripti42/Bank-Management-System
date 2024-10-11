@@ -72,6 +72,7 @@ CREATE TABLE Customers (
 );
 
 CREATE TABLE Transactions (
+
     transaction_id INT PRIMARY KEY AUTO_INCREMENT,
     customer_id INT,
     date DATE,
@@ -87,6 +88,7 @@ CREATE TABLE Transactions (
 **Connecting the Database **
 
 def connect_to_db():
+
     return mysql.connector.connect(
         host="localhost",
         user="root",  # Your MySQL username
