@@ -123,10 +123,3 @@ Report: Get a summary of the total number of accounts, deposits, withdrawals, an
 
 
 
-**Future Improvements**
-
-Add loan management features.
-
-Add account locking after multiple failed login attempts.
-
-Add graphs to show account trends.# Bank-Management-System
