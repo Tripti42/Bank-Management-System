@@ -52,8 +52,6 @@ pip install mysql-connector-python bcrypt tkinter
 
 Open MySQL and create the database:
 
-**sql Queries**
-
 **Creating the Database**
 
 CREATE DATABASE bank_management;
