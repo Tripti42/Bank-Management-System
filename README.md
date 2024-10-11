@@ -93,7 +93,6 @@ CREATE TABLE Transactions (
 
 
 
-**python code **
 
 ## **Connecting the Database **
 
